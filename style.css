@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Fahkwang', sans-serif;
+}
+.nav-link{
+    color: aliceblue;
+}
+.hero{
+    min-height: 300px;
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.width{
+    width: 50%;
+}
+.gif-img{
+    width: 100%;
+}
+
+.gif-img img{
+    width: 100%;
+    height: auto;
+}
+.con-zero{
+    margin: 35vh 0;
+}
+.con-one{
+    margin: 35vh 0;
+}
+.con-two{
+    /* margin: 100vh 0; */
+    width: 100%;
+}
+.con-two .image img{
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    border: 1px solid rebeccapurple;
+}
+/* .ms{
+    margin-left: -15px;
+} */
+.big-txt-hero{
+    font-size: 12vw;
+}
+.big-txt{
+    font-size: 16.5vw;
+    line-height: .6;
+}
+.f-height{
+    height: 75vh;
+}
+
+.td{
+    text-decoration: none;
+}
+
+.full-height{
+    height: 85vh;
+}
+
+
+
+@media (max-width: 767px) {
+    .connect {
+        display: none;
+    }
+    
+}
