@@ -10,16 +10,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="sticky">
+    <div class="image">
+        <a href="https://outofreach.nyc/">
+            <img src="./image/creepy-pasta-raining.gif" alt="creepy">
+        </a>
+    </div>
+</div>
     <div class="container-fluid bg-dark mb-4">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid justify-content-between row">
                 <div class="col-auto text-center align-self-start p-4">
-                    <a class="navbar-brand text-light" href="https://outofreach.nyc/">OutOfReach</a>
+                    <a href="https://outofreach.nyc/" class="logo">
+                        <div class="nav_gap_inner">
+                            <img src="https://outofreach.nyc/wp-content/uploads/2022/09/logo_oor.png" alt="">
+                        </div>
+                    </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto nav-menu ">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-menu rounded-pill">
+                        Menu
+                    </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav d-flex flex-column">
@@ -32,59 +44,71 @@
                 </div>
             </div>
         </nav>
+        <!-- iiiiiiiiiii -->
         
         <!-- hero section   -->
 
-        <div class="row">
-            <div class="col-12 hero">
-                <h1 class="text-light text-center big-txt-hero">BRANDING & <br> WEB DESIGN</h1>
+        <div class="branding d-flex align-items-center">
+            <div class="row">
+                <div class="col-12 hero">
+                    <h1 class="text-light big-txt-hero">BRANDING & <br> WEB DESIGN</h1>
+                </div>
             </div>
         </div>
 
-        <div class="row text-center p-5 justify-content-evenly align-items-center">
-            <!-- <div class="col-12 col-md-4 text-light hero p-5">
-                <a href="#">service</a>
-            </div> -->
-            <div class="col-lg-7 order-lg-2 text-light hero text-start p-5">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut perferendis illum, veniam obcaecati corrupti.</h1>
-            </div>
-            <div class="col-lg-4 order-lg-1"> 
-                <div class="circle rounded-circle text-light">
-                    <span class="ms">SERVICES</span>
+        <div class="service">
+            <div class="row text-center justify-content-evenly align-items-center">
+                <!-- <div class="col-12 col-md-4 text-light hero p-5">
+                    <a href="#">service</a>
+                </div> -->
+                <div class="section col-lg-7 order-lg-2 text-light hero erika text-start">
+                    <h2> <a class="t" href="#">ERIKA O.</a> IS A CREATIVE <br> DIRECTOR FOCUSED ON <br> STRATEGIC BRANDING, WEB <br> DESIGN, + SOCIAL MEDIA</h2>
+                </div>
+                <div class=" section serv-padding col-lg-4 order-lg-1 d-flex justify-content-sm-end"> 
+                    <div class="circle rounded-circle text-light">
+                        <span class="ms">SERVICES</span>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- plans  -->
-        <div class="plans row p-5">
-            <div class="col-md-12 col-lg-4 text-center text-light"><span class="m-4">N0.1</span>  VISION</div>
-            <div class="col-md-12 col-lg-4 text-center text-light"><span class="m-4">NO.2</span>  CONNECTION</div>
-            <div class="col-md-12 col-lg-4 text-center float-md-end text-light"><span class="m-4">NO.3</span>  IMPACT</div>
-        </div>        
+        <div class="section vision">
+            <div class="plans d-flex  justify-content-around py-5">
+                <div class="text-light"><span class="m-4">N0.1</span>  VISION</div>
+                <div class="text-light"><span class="m-4">NO.2</span>  CONNECTION</div>
+                <div class="text-light"><span class="m-4">NO.3</span>  IMPACT</div>
+            </div>   
+        </div>     
     </div>
 
     <!-- middle section  -->
-    <section class="container-fluid mb-4">
+    <section class="container-fluid">
         <div class="con-zero">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 width p-0">
+                <div class="col-md-12 col-lg-6 p-0">
                     <div class="image gif-img">
                         <img src="./image/Main-GIF-copy-opt.gif" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 p-5 align-self-center">
-                    <h4 class="my-4">SHOPHISTICATED DESIGN WITH A WOW FACTOR</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eveniet tempore quae sed adipisci unde eum molestias, commodi saepe nulla laborum totam? Mollitia odio iste quos ducimus nulla aliquam magnam, nostrum quibusdam veniam dolor architecto ab repellat minima molestias dignissimos illo quas ex eligendi quia nisi adipisci consectetur sunt? Iste eveniet facilis repellendus aliquid sed ut accusamus eos numquam voluptatum!</p>
+                <div class="col-md-12 col-lg-6 p-5 d-flex align-self-center content-padding">
+                    <div class="wi">
+                        <h4 class="my-4 justify-content-sm-around">SHOPHISTICATED DESIGN WITH A WOW FACTOR</h4>
+                        <p>With over nine years of experience, Erika has built brands for determined and ambitious entrepreneurs; through intentional design Erika helps visionaries lead powerful, innovative brands with a strong sense of connection.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <!-- MANIFESTO MANIFESTO MANIFESTO 
+        
+        -->
         <div class="con-one">
             <div class="row">
-                <div class="col-12 d-flex hero justify-content-end">
+                <div class="col-12 d-flex hero justify-content-end margin-top">
                     <h1 class="number big-txt">01.</h1>
                 </div>
-                <div class="col-12 hero d-flex justify-content-center">
+                <div class="col-12 hero d-flex justify-content-center content-padding">
                     <div class="">
                         <h6 class="">MANIFESTO</h6>
                         <h4>GOOD DESIGN MEANS GOOD BUSINESS.</h4>
@@ -96,7 +120,7 @@
         <!-- image section  -->
 
         <div class="con-two mb-5">
-            <div class="row">
+            <div class="row vision">
                 <div class="col-12 p-0">
                     <div class="image">
                         <img src="./image/petal_banner.jpg" alt="">
@@ -112,78 +136,81 @@
                     <h1 class="number big-txt">02.</h1>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 d-flex justify-content-center">
-                    <div>
+            <div class="row align-items-center ">
+                <div class="col-md-12 col-lg-6 p-5 d-flex align-self-center content-padding d-flex justify-content-center">
+                    <div class="vision">
                         <h6>THE GOAL</h6>
                         <h3>BUILD A BRAND.<br>
                         ESTABLISH A CONNECTION.<br>
                         INCREASE ROI.
-                    </h3>
+                        </h3>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-md-12 col-lg-6 p-0">
                     <div class="image gif-img">
                         <img src="./image/Main-GIF-copy-opt.gif" alt="">
                     </div>
                 </div>
             </div>
-            <div class="row my-5 align-items-center">
-                <div class="col-9 d-flex justify-content-end hero">
-                    <div>
-                        <h1>
-                            BASED IN <br> DREAM ARRAY. <br>
-                            *AVAILABLE <br> WORLDWIDE
-                        </h1>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-    <footer>
-        <div class="container-fluid my-5 full-height">
-            <div class="row justify-content-center">
-                <div class="col-10">
-                    <h5>DO YOU HAVE PROJECT IN MIND? <br>
-                    LET'S TALK.</h5>
-                </div>
-            </div>
-
-            <div class="row justify-content-center align-items-center py-5 f-height">
-                <div class="col-2 col-md-2"> 
-                    <div class="circle rounded-circle">
-                        <span class="ms">MESSAGE</span>
-                    </div>
-                </div>
-                <div class="col-12 col-md-10 align-items-center">
-                    <div class="d-flex flex-column">
-                        <span>03.</span>
-                        <h1 class="big-txt">
-                            INQUIRE
-                        </h1>
-                    </div>
-                </div>
-            </div>
-            <div class="connect">
-                <div class="row justify-content-between">
-                    <div class="col-auto d-flex">
-                        <div class="social">
-                            <a class="td px-4 py-2 bg-dark rounded-pill" href="instagram.com">INSTAGRAM</a>
-                        </div>
-                        <div class="social">
-                            <a class="td mx-4 px-4 py-2 bg-dark rounded-pill" href="facebook.com">FACEBOOK</a>
-                        </div>
-                        <div class="upwork">
-                            <a class="td px-4 py-2 bg-dark rounded-pill" href="#">UPWORK</a>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#">OOR © 2022</a>
-                    </div>
+    <div class="container-fluid primary-color bg-gradient txt-color margin-top">
+        <div class="row align-items-center full-vh">
+            <div class="col-9 d-flex justify-content-end hero">
+                <div>
+                    <h1 class="text-xxl">
+                        BASED IN <br> DREAM ARRAY. <br>
+                        *AVAILABLE <br> WORLDWIDE
+                    </h1>
                 </div>
             </div>
         </div>
-    </footer>
+        <footer class="txt-color">
+            <div class="container-fluid ">
+                <div class="row justify-content-center text-center section">
+                    <div class="col-10 py-5 hidden">
+                        <h5>DO YOU HAVE PROJECT IN MIND? <br>
+                        LET'S TALK.</h5>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center align-items-center py-5 half-vw">
+                    <div class="col-2 col-md-2"> 
+                        <div class="circle rounded-circle">
+                            <span class="ms p-3">MESSAGE</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10 align-items-center ">
+                        <div class="d-flex flex-column">
+                            <span class="number-padding-left">03.</span>
+                            <h1 class="big-txt">
+                                INQUIRE
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5">
+                    <div class="row justify-content-between">
+                        <div class="col-auto d-flex">
+                            <div class="social">
+                                <a class="td px-4 py-2 bg-dark rounded-pill" href="instagram.com">INSTAGRAM</a>
+                            </div>
+                            <div class="social">
+                                <a class="td mx-4 px-4 py-2 bg-dark rounded-pill" href="facebook.com">FACEBOOK</a>
+                            </div>
+                            <div class="upwork">
+                                <a class="td px-4 py-2 bg-dark rounded-pill" href="#">UPWORK</a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <a href="#">OOR © 2022</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
 
 
 

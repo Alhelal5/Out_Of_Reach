@@ -1,53 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap');
 *{
     font-family: 'Fahkwang', sans-serif;
-}
-.nav-link{
-    color: aliceblue;
-}
-.hero{
-    min-height: 300px;
-}
-.image{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    --font-size--small: 14px;
+    --font-size--medium: 30px;
+    --font-size--large: 36px;
+    --font-size--x-large: 42px;
+    --font-size--xx-large: 50px;
+
+    --big-text--xl:280px;
+    --big-text--l:240px;
+
+
+    /* color  */
+    --bg-primary: rgb(0, 0, 0);
+    --bg-secondary: rgba(0, 0, 0, 0.562);
+
+    --txt-color:white;
+
+    --quarter-s-vw:25vw;
+    --half-s-vw:50vw;
+    --full-s-vw:65vw;
+
+    --full-vh:100vh;
+
+   
 }
 
-.width{
-    width: 50%;
-}
-.gif-img{
-    width: 100%;
+body{
+    scroll-behavior: smooth;
 }
 
-.gif-img img{
-    width: 100%;
-    height: auto;
+
+.full-vh{
+    height: var(--full-vh);
 }
-.con-zero{
-    margin: 35vh 0;
+.quarter-vw{
+    height: var(--quarter-s-vw);
 }
-.con-one{
-    margin: 35vh 0;
+.half-vw{
+    height: var(--half-s-vw);
 }
-.con-two{
-    /* margin: 100vh 0; */
-    width: 100%;
+.full-vw{
+    height: var(--full-s-vw);
 }
-.con-two .image img{
-    width: 100%;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+.text-xxl{
+    font-size: var(--font-size--xx-large);
 }
+.text-xl{
+    font-size: var(--font-size--x-large);
+}
+.text-l{
+    font-size: var(--font-size--large);
+}
+.text-m{
+    font-size: var(--font-size--medium);
+}
+
+.primary-color{
+    background: var(--bg-primary);
+}
+.secondary-color{
+    background: var(--bg-secondary);
+}
+
+.txt-color{
+    color: var(--txt-color);
+}
+/* -----------------------------------------  */
 .rounded-circle {
     border-radius: 50%!important;
-    height: 200px;
-    width: 200px;
+    height: 12vw;
+    width: 12vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.ms{
+    font-size: 1vw;
 }
 .circle{
     border: 1px solid rebeccapurple;
@@ -55,15 +85,9 @@
 /* .ms{
     margin-left: -15px;
 } */
-.big-txt-hero{
-    font-size: 12vw;
-}
-.big-txt{
-    font-size: 16.5vw;
-    line-height: .6;
-}
+
 .f-height{
-    height: 75vh;
+    height: 75vw;
 }
 
 .td{
@@ -75,10 +99,209 @@
 }
 
 
+/* -----------------------------------------  */
+
+.nav-link{
+    color: aliceblue;
+}
+
+.navbar .logo{
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 0;
+    z-index: 91;
+    width: 135px;
+    mix-blend-mode: difference;
+}
+.navbar .logo img{
+    width: 100%;
+    padding: 15px 25px;
+}
+.navbar .navbar-toggler{
+    border: none;
+}
+.navbar .nav-menu{
+    padding: 10px 25px;
+    position: fixed;
+    top: 27px;
+    right: 10px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    padding-bottom: 25px;
+}
+.navbar .navbar-toggler-menu{
+    color: white;
+    padding: 8px 22px;
+    border: 1px solid gray;
+}
+
+
+/* branding web design   */
+.big-txt-hero{
+    font-size: 13vw;
+    padding: 20px 20px;
+    text-align: center;
+}
+.big-txt{
+    font-size: 16.5vw;
+    line-height: .8;
+}
+
+.branding{
+    height: auto;
+    min-height: 110vh;
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sticky {
+    position: fixed;
+    right: 0;
+    top: 44%;
+}
+.sticky .image {
+    height: 100px;
+    width: 41px;
+}
+.sticky .image img{
+    width: 100%;
+    height: 100%;
+}
+.width{
+    width: 50%;
+}
+.gif-img{
+    width: 100%;
+}
+
+.gif-img img{
+    width: 100%;
+    height: auto;
+}
+.section{
+    padding: 5vw 0;
+}
+.number{
+    padding-bottom: 15vw;
+}
+/* ERIKA O. IS A CREATIVE  */
+.erika h2{
+    font-size: var(--font-size--xx-large);
+    line-height: 1;
+    margin-bottom: 50px
+}
+
+
+.vision{
+    padding: 20vw 0;
+}
+
+.serv-padding{
+    padding-right: 10vw;
+}
+.margin-top{
+    margin-top: 10vw;
+}
+/* SHOPHISTICATED DESIGN WITH A WOW FACTOR  */
+.con-zero{
+    padding-top: 25vw;
+}
+.con-zero .wi h4 {
+    font-size: var(--font-size--small);
+    font-weight: 500;
+    display: flex;
+}
+.con-zero .wi p{
+    font-size: var(--font-size--small);
+    font-weight: 300;
+    line-height: 2;
+}
+.content-padding{
+    padding-top: 20vw;
+}
+
+/* number 01 css  */
+
+.con-one{
+    margin-bottom: 35vh 0;
+}
+
+/* image galary css  */
+.con-two{
+    /* margin: 100vh 0; */
+    margin-bottom: 35vh 0;
+    width: 100%;
+}
+.con-two .image img{
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* footer css starts here  */
+.number-padding-left{
+    padding-left: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 1280px){
+    .erika h2{
+        font-size: var(--font-size--x-large);
+    }
+}
+@media only screen and (max-width: 991px){
+    .vision .plans {
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .erika h2{
+        font-size: 6.2vw;
+        line-height: 1;
+        margin-bottom: 50px
+    }
+    .con-zero .wi{
+        margin-left: 20vw;
+        padding: 20vw 0;
+    }
+    .content-padding{
+        padding: 20vw;
+    }
+    .hidden{
+        display: block;
+    }
+    .rounded-circle {
+        height: 150px;
+        width: 150px;
+    }
+    .ms{
+        font-size: 12px;
+    }
+    footer .big-txt{
+        font-size: 17.5vw;
+    }
+}
+
 
 @media (max-width: 767px) {
     .connect {
         display: none;
+    }
+    
+}
+@media (max-width: 575px) {
+    .serv-padding{
+        justify-content: center;
     }
     
 }
